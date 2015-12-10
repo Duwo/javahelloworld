@@ -10,3 +10,6 @@ RUN javac -d /bin /home/root/javahelloworld/src/HelloWorld.java
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
 
 ENV MY_VAR=ett
+ENV MY_VAR2=two
+EXPOSE 80
+
